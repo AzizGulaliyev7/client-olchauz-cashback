@@ -9,7 +9,7 @@
             "homepage": "http://author.com"
         }
     ],
-    "homepage": "https://github.com/olchauz/cashbackappclient",
+    "homepage": "https://github.com/AzizGulaliyev7/client-olchauz-cashback",
     "keywords": ["Laravel", "CashbackAppClient"],
     "require": {
         "illuminate/support": "~9|~8",
