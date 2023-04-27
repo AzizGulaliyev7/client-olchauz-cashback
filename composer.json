@@ -1,0 +1,42 @@
+{
+    "name": "olchauz/cashbackappclient",
+    "description": ":package_description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Author Name",
+            "email": "author@email.com",
+            "homepage": "http://author.com"
+        }
+    ],
+    "homepage": "https://github.com/olchauz/cashbackappclient",
+    "keywords": ["Laravel", "CashbackAppClient"],
+    "require": {
+        "illuminate/support": "~9|~8",
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Olchauz\\CashbackAppClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Olchauz\\CashbackAppClient\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Olchauz\\CashbackAppClient\\CashbackAppClientServiceProvider"
+            ],
+            "aliases": {
+                "CashbackAppClient": "Olchauz\\CashbackAppClient\\Facades\\CashbackAppClient"
+            }
+        }
+    }
+}
